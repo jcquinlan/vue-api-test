@@ -1,0 +1,19 @@
+{
+  "name": "vue-api-test",
+  "version": "1.0.0",
+  "description": "Testing the consumption of an API with VueJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jcquinlan/vue-api-test.git"
+  },
+  "author": "jcquinlan",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^1.0.21",
+    "vue-resource": "^0.7.0"
+  }
+}

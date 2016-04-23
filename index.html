@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue API Test</title>
+</head>
+<body>
+
+    <div id="app">
+        <input v-model="username"  id="username-input" type="text">
+        <button v-on:click="getUser(username)">Get User</button>
+
+        <div v-if="user" class="user-info">
+            {{ user.login }}
+        </div>
+        <div v-else>No User</div>
+    </div>
+
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
